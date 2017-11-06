@@ -52,7 +52,7 @@
 %% You probably do not need to change anything above this comment
 
 %% REPLACE this with your student number
-\def\studentNumber{s1754321}
+\def\studentNumber{s1771650}
 
 \begin{document} 
 
@@ -74,9 +74,17 @@ This document provides a template for the MLP coursework 1 report.  In particula
 
 The introduction should place your work in context, giving the overall motivation for the work, and clearly outlining the research questions you have explored -- in this case comparison of the behaviour of the different activation functions,  experimental investigation of the impact of the depth of the network with respect to accuracy, and experimental investigation of different approaches to weight initialisation.  This section should also include a concise description of the MNIST task and  data -- be precise: for example state the size of the training and validation sets.
 
-
 \section{Activation functions}
 \label{sec:actfn}
+In computational networks, the activation function is used to introduce nonlinearity to models, mapping input nodes and output nodes. The Rectified Linear Unit(ReLU) is the most used in activation functions.This function was first introduced to a dynamical network by Hahnloser. ReLU defined as :
+\begin{equation}
+  \relu(x) = \max(0, x) ,
+\end{equation} 
+In computational networks, the activation function is used to introduce nonlinearity to models, mapping input nodes and output nodes. The Rectified Linear Unit(ReLU) is the most used in activation functions.This function was first introduced to a dynamical network by Hahnloser. ReLU defined as :
+\begin{equation}
+  \relu(x) = \max(0, x) ,
+\end{equation} 
+
 This section should cover the theoretical methodology -- in this case you should present the four activation functions: ReLU, Leaky ReLU, ELU, and SELU.  I didn't do it in this document, but the first time you use an acronym you should say what it stands for, for example Restricted Linear Unit (ReLU).  You should use equations to concisely describe each activation function.  For example, ReLU: 
 \begin{equation}
   \relu(x) = \max(0, x) ,
