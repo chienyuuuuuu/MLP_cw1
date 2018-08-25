@@ -29,3 +29,4 @@ Then your ipython notebook should be able to produce progress bar for your train
 If you get javascript errors try running the following command in the terminal and restarting the notebook:
 
 ```jupyter nbextension enable --py --sys-prefix widgetsnbextension```
+"# MLP_cw1" 
